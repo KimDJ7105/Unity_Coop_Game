@@ -25,6 +25,9 @@ public class UiManager : MonoBehaviour
 	private void Awake()
 	{
 		state = UiState.SelectPanel;
+		SelectPanel.SetActive(true);
+		IpPanel.SetActive(false);
+		LobbyPanel.SetActive(false);
 	}
 
 
