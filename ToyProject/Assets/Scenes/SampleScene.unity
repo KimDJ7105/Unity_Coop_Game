@@ -503,10 +503,10 @@ RectTransform:
   - {fileID: 546387009}
   m_Father: {fileID: 1997277002}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 940, y: -60}
+  m_SizeDelta: {x: 1880, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &196022101
 MonoBehaviour:
@@ -579,10 +579,10 @@ RectTransform:
   - {fileID: 740957882}
   m_Father: {fileID: 1997277002}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 940, y: -170}
+  m_SizeDelta: {x: 1880, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &234690652
 MonoBehaviour:
@@ -932,7 +932,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &307691067
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1404,10 +1404,10 @@ RectTransform:
   - {fileID: 10011878}
   m_Father: {fileID: 1997277002}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 940, y: -500}
+  m_SizeDelta: {x: 1880, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &499426167
 MonoBehaviour:
@@ -1480,10 +1480,10 @@ RectTransform:
   - {fileID: 826794882}
   m_Father: {fileID: 1997277002}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 940, y: -830}
+  m_SizeDelta: {x: 1880, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &521938584
 MonoBehaviour:
@@ -2009,10 +2009,10 @@ RectTransform:
   - {fileID: 283620570}
   m_Father: {fileID: 1997277002}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 940, y: -280}
+  m_SizeDelta: {x: 1880, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &679502525
 MonoBehaviour:
@@ -2137,7 +2137,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1485121804}
         m_TargetAssemblyTypeName: UiManager, Assembly-CSharp
-        m_MethodName: OnJoinButtonEvent
+        m_MethodName: OnLobbyJoinButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2888,10 +2888,10 @@ RectTransform:
   - {fileID: 1127303917}
   m_Father: {fileID: 1997277002}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 940, y: -720}
+  m_SizeDelta: {x: 1880, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &968138423
 MonoBehaviour:
@@ -3357,10 +3357,10 @@ RectTransform:
   - {fileID: 937507306}
   m_Father: {fileID: 1997277002}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 940, y: -610}
+  m_SizeDelta: {x: 1880, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1236766999
 MonoBehaviour:
@@ -3569,10 +3569,10 @@ RectTransform:
   - {fileID: 592768854}
   m_Father: {fileID: 1997277002}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 940, y: -390}
+  m_SizeDelta: {x: 1880, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1444867349
 MonoBehaviour:
@@ -3656,9 +3656,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41cf9771a40995842b2e06e150614dd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  UndoButton: {fileID: 2105800229}
   SelectPanel: {fileID: 1748922025}
   IpPanel: {fileID: 879407611}
+  LobbyPanel: {fileID: 307691066}
 --- !u!1 &1515729869
 GameObject:
   m_ObjectHideFlags: 0
@@ -4321,7 +4321,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1823818709}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1485121804}
+        m_TargetAssemblyTypeName: UiManager, Assembly-CSharp
+        m_MethodName: OnLobbyCreateButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1823818709
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4810,7 +4822,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1485121804}
         m_TargetAssemblyTypeName: UiManager, Assembly-CSharp
-        m_MethodName: OnUndoButtonEvent
+        m_MethodName: OnUndoButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
