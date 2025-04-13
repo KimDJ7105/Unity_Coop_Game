@@ -10,16 +10,16 @@ public class UiManager : MonoBehaviour
 		IpPanel,
 		LobbyPanel,
 
-	}
+    }
 
 	
 	//Panel
 	public GameObject SelectPanel;
 	public GameObject IpPanel;
 	public GameObject LobbyPanel;
-	
 
-	private UiState state = UiState.None;
+
+    private UiState state = UiState.None;
 
 
 	private void Awake()
@@ -65,7 +65,7 @@ public class UiManager : MonoBehaviour
 		switch (state)
 		{
 			case UiState.None:
-				Debug.Log("양정우 여기 고쳐줘");
+				Debug.Log("");
 				break;
 
 			case UiState.SelectPanel:
