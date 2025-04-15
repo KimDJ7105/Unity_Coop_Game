@@ -16,6 +16,8 @@ public class NetworkRunnerHandler : MonoBehaviour, INetworkRunnerCallbacks
         runner = Instantiate(runnerPrefab);
         runner.ProvideInput = true;
 
+        runner.AddCallbacks(this);
+
         await runner.StartGame(new StartGameArgs()
         {
             GameMode = GameMode.Host,
@@ -24,12 +26,14 @@ public class NetworkRunnerHandler : MonoBehaviour, INetworkRunnerCallbacks
         });
 
         Debug.Log("호스트 생성 완료");
-    }//NetworkManager -> NetworkRunnerHandler.StartHost()
+    }
 
     public async void StartClient()
     {
         runner = Instantiate(runnerPrefab);
         runner.ProvideInput = true;
+
+        runner.AddCallbacks(this);
 
         await runner.StartGame(new StartGameArgs()
         {
@@ -37,9 +41,7 @@ public class NetworkRunnerHandler : MonoBehaviour, INetworkRunnerCallbacks
             SessionName = roomName,
             SceneManager = gameObject.AddComponent<NetworkSceneManagerDefault>() //이 코드의 역할과 작동 방식은?
         });
-
-        Debug.Log("클라이언트 접속 완료");
-    }//NetworkManager -> NetworkRunnerHandler.StartClient()
+    }
 
     public void OnPlayerJoined(NetworkRunner runner, PlayerRef player)
     {
@@ -51,8 +53,14 @@ public class NetworkRunnerHandler : MonoBehaviour, INetworkRunnerCallbacks
         Debug.Log($"플레이어 퇴장 : {player.PlayerId}");
     }
 
-    void INetworkRunnerCallbacks.OnConnectedToServer(NetworkRunner runner) { }
-    void INetworkRunnerCallbacks.OnDisconnectedFromServer(Fusion.NetworkRunner runner, Fusion.Sockets.NetDisconnectReason reason) { }
+    void INetworkRunnerCallbacks.OnConnectedToServer(NetworkRunner runner) 
+    {
+        Debug.Log("[Fusion] 서버에 성공적으로 연결되었습니다.");
+    }
+    void INetworkRunnerCallbacks.OnDisconnectedFromServer(Fusion.NetworkRunner runner, Fusion.Sockets.NetDisconnectReason reason)
+    {
+        Debug.LogWarning($"[Fusion] 서버 연결 실패 - 사유: {reason}");
+    }
     public void OnConnectRequest(NetworkRunner runner, NetworkRunnerCallbackArgs.ConnectRequest request, byte[] token) { }
     public void OnConnectFailed(NetworkRunner runner, NetAddress remoteAddress, NetConnectFailedReason reason) { }
     public void OnUserSimulationMessage(NetworkRunner runner, SimulationMessagePtr message) { }
