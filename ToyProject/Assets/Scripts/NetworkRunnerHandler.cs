@@ -26,6 +26,11 @@ public class NetworkRunnerHandler : MonoBehaviour, INetworkRunnerCallbacks
         });
 
         Debug.Log("호스트 생성 완료");
+
+
+        GameObject sphere = GameObject.CreatePrimitive(PrimitiveType.Sphere);
+
+        sphere.transform.position = new Vector3(0, 5, 0);
     }
 
     public async void StartClient()
@@ -56,6 +61,11 @@ public class NetworkRunnerHandler : MonoBehaviour, INetworkRunnerCallbacks
     void INetworkRunnerCallbacks.OnConnectedToServer(NetworkRunner runner) 
     {
         Debug.Log("[Fusion] 서버에 성공적으로 연결되었습니다.");
+
+        GameObject cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
+
+        cube.transform.position = new Vector3(0, 0, 0);
+
     }
     void INetworkRunnerCallbacks.OnDisconnectedFromServer(Fusion.NetworkRunner runner, Fusion.Sockets.NetDisconnectReason reason)
     {
