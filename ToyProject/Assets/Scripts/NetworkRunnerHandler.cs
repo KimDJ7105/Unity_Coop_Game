@@ -3,26 +3,32 @@ using Fusion;
 using Fusion.Sockets;
 using System.Collections.Generic;
 using System;
+using UnityEngine.SceneManagement;
 
 public class NetworkRunnerHandler : MonoBehaviour, INetworkRunnerCallbacks
 {
-    public NetworkRunner runnerPrefab;
-    public NetworkRunner runner;
+    [SerializeField] private NetworkRunner runnerPrefab;
+    [SerializeField] private SceneRef gameSceneRef;
 
     public string roomName = "GameRoom"; //게임 세션 네임. 중복 불가. 원래 호스트 측에서 입력해야 하지만 지금은 입력 기능이 없으니 사전에 설정
 
     public async void StartHost()
     {
-        runner = Instantiate(runnerPrefab);
+        var runner = Instantiate(runnerPrefab);
         runner.ProvideInput = true;
 
         runner.AddCallbacks(this);
+
+        var sceneManager = runner.GetComponent<NetworkSceneManagerDefault>();
+        if (sceneManager == null)
+            sceneManager = runner.gameObject.AddComponent<NetworkSceneManagerDefault>();
 
         await runner.StartGame(new StartGameArgs()
         {
             GameMode = GameMode.Host,
             SessionName = roomName,
-            SceneManager = gameObject.AddComponent<NetworkSceneManagerDefault>()
+            Scene = gameSceneRef,
+            SceneManager = sceneManager
         });
 
         Debug.Log("호스트 생성 완료");
@@ -35,16 +41,20 @@ public class NetworkRunnerHandler : MonoBehaviour, INetworkRunnerCallbacks
 
     public async void StartClient()
     {
-        runner = Instantiate(runnerPrefab);
+        var runner = Instantiate(runnerPrefab);
         runner.ProvideInput = true;
-
         runner.AddCallbacks(this);
+
+        var sceneManager = runner.GetComponent<NetworkSceneManagerDefault>();
+        if (sceneManager == null)
+            sceneManager = runner.gameObject.AddComponent<NetworkSceneManagerDefault>();
 
         await runner.StartGame(new StartGameArgs()
         {
             GameMode = GameMode.Client,
             SessionName = roomName,
-            SceneManager = gameObject.AddComponent<NetworkSceneManagerDefault>() //이 코드의 역할과 작동 방식은?
+            Scene = gameSceneRef,
+            SceneManager = sceneManager
         });
     }
 
