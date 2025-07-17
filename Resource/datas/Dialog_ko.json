@@ -1,6 +1,6 @@
 {
 	"dialogs": [
-		
+
 		{
 			"name": "lobby_StartButton",
 			"text": "게임 시작"
@@ -12,8 +12,103 @@
 		{
 			"name": "lobby_ExitButton",
 			"text": "게임 종료"
-		}
+		},
 
+
+
+		{
+			"name": "lS_ScreenButton",
+			"text": "화면"
+		},
+		{
+			"name": "lS_ScreenGammaButton",
+			"text": "화면 밝기"
+		},
+		{
+			"name": "lS_ScreenModeButton",
+			"text": "화면 비율"
+		},
+
+
+
+		{
+			"name": "lS_SoundButton",
+			"text": "음량"
+		},
+		{
+			"name": "lS_UISoundButton",
+			"text": "UI 음량"
+		},
+		{
+			"name": "lS_BGMSoundButton",
+			"text": "BGM 음량"
+		},
+		{
+			"name": "lS_GameSoundButton",
+			"text": "인게임 음량"
+		},
+
+
+		{
+			"name": "lS_ControlButton",
+			"text": "조작"
+		},
+		{
+			"name": "lS_MouseControlButton",
+			"text": "마우스 민감도"
+		},
+		{
+			"name": "lS_KeyControlButton",
+			"text": "단축키"
+		},
+		{
+			"name": "lS_KC_FrontButton",
+			"text": "앞으로 이동"
+		}
+		{
+			"name": "lS_KC_BackButton",
+			"text": "뒤로 이동"
+		}
+		{
+			"name": "lS_KC_LeftButton",
+			"text": "왼쪽으로 이동"
+		}
+		{
+			"name": "lS_KC_RightButton",
+			"text": "오른쪽으로 이동"
+		}
+		{
+			"name": "lS_KC_JumpButton",
+			"text": "점프"
+		}
+		{
+			"name": "lS_KC_RunButton",
+			"text": "질주"
+		}
+		{
+			"name": "lS_KC_InteractButton",
+			"text": "상호작용"
+		}
+		{
+			"name": "lS_KC_Inventory01Button",
+			"text": "1번 아이템 사용"
+		}
+		{
+			"name": "lS_KC_Inventory02Button",
+			"text": "2번 아이템 사용"
+		}
+		{
+			"name": "lS_KC_Inventory03Button",
+			"text": "3번 아이템 사용"
+		}
+		{
+			"name": "lS_KC_Inventory04Button",
+			"text": "4번 아이템 사용"
+		}
+		{
+			"name": "lS_KC_Inventory05Button",
+			"text": "5번 아이템 사용"
+		}
 	]
 
 }
