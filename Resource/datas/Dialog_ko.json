@@ -1,0 +1,19 @@
+{
+	"dialogs": [
+		
+		{
+			"name": "lobby_StartButton",
+			"text": "게임 시작"
+		},
+		{
+			"name": "lobby_SettingButton",
+			"text": "게임 세팅"
+		},
+		{
+			"name": "lobby_ExitButton",
+			"text": "게임 종료"
+		}
+
+	]
+
+}
