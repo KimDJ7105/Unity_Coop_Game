@@ -7,13 +7,18 @@
 		},
 		{
 			"name": "lobby_SettingButton",
-			"text": "게임 세팅"
+			"text": "게임 설정"
 		},
 		{
 			"name": "lobby_ExitButton",
 			"text": "게임 종료"
 		},
 
+
+		{
+			"name": "lS_LogoButton",
+			"text": "설정"
+		},
 
 
 		{
@@ -33,7 +38,7 @@
 
 		{
 			"name": "lS_SoundButton",
-			"text": "음량"
+			"text": "오디오"
 		},
 		{
 			"name": "lS_UISoundButton",
@@ -58,53 +63,49 @@
 			"text": "마우스 민감도"
 		},
 		{
-			"name": "lS_KeyControlButton",
-			"text": "단축키"
-		},
-		{
 			"name": "lS_KC_FrontButton",
 			"text": "앞으로 이동"
-		}
+		},
 		{
 			"name": "lS_KC_BackButton",
 			"text": "뒤로 이동"
-		}
+		},
 		{
 			"name": "lS_KC_LeftButton",
 			"text": "왼쪽으로 이동"
-		}
+		},
 		{
 			"name": "lS_KC_RightButton",
 			"text": "오른쪽으로 이동"
-		}
+		},
 		{
 			"name": "lS_KC_JumpButton",
 			"text": "점프"
-		}
+		},
 		{
 			"name": "lS_KC_RunButton",
 			"text": "질주"
-		}
+		},
 		{
 			"name": "lS_KC_InteractButton",
 			"text": "상호작용"
-		}
+		},
 		{
 			"name": "lS_KC_Inventory01Button",
 			"text": "1번 아이템 사용"
-		}
+		},
 		{
 			"name": "lS_KC_Inventory02Button",
 			"text": "2번 아이템 사용"
-		}
+		},
 		{
 			"name": "lS_KC_Inventory03Button",
 			"text": "3번 아이템 사용"
-		}
+		},
 		{
 			"name": "lS_KC_Inventory04Button",
 			"text": "4번 아이템 사용"
-		}
+		},
 		{
 			"name": "lS_KC_Inventory05Button",
 			"text": "5번 아이템 사용"
