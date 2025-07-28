@@ -16,98 +16,98 @@
 
 
 		{
-			"name": "lS_LogoButton",
+			"name": "IS_SettingTitleText",
 			"text": "설정"
 		},
 
 
 		{
-			"name": "lS_ScreenButton",
+			"name": "lS_ScreenButtonText",
 			"text": "화면"
 		},
 		{
-			"name": "lS_ScreenGammaButton",
+			"name": "lS_ScreenGammaButtonText",
 			"text": "화면 밝기"
 		},
 		{
-			"name": "lS_ScreenModeButton",
+			"name": "lS_ScreenModeButtonText",
 			"text": "화면 비율"
 		},
 
 
 
 		{
-			"name": "lS_SoundButton",
+			"name": "lS_SoundButtonText",
 			"text": "오디오"
 		},
 		{
-			"name": "lS_UISoundButton",
+			"name": "lS_UISoundButtonText",
 			"text": "UI 음량"
 		},
 		{
-			"name": "lS_BGMSoundButton",
+			"name": "lS_BGMSoundButtonText",
 			"text": "BGM 음량"
 		},
 		{
-			"name": "lS_GameSoundButton",
+			"name": "lS_GameSoundButtonText",
 			"text": "인게임 음량"
 		},
 
 
 		{
-			"name": "lS_ControlButton",
+			"name": "lS_ControlButtonText",
 			"text": "조작"
 		},
 		{
-			"name": "lS_MouseControlButton",
+			"name": "lS_MouseControlButtonText",
 			"text": "마우스 민감도"
 		},
 		{
-			"name": "lS_KC_FrontButton",
+			"name": "lS_KC_FrontButtonText",
 			"text": "앞으로 이동"
 		},
 		{
-			"name": "lS_KC_BackButton",
+			"name": "lS_KC_BackButtonText",
 			"text": "뒤로 이동"
 		},
 		{
-			"name": "lS_KC_LeftButton",
+			"name": "lS_KC_LeftButtonText",
 			"text": "왼쪽으로 이동"
 		},
 		{
-			"name": "lS_KC_RightButton",
+			"name": "lS_KC_RightButtonText",
 			"text": "오른쪽으로 이동"
 		},
 		{
-			"name": "lS_KC_JumpButton",
+			"name": "lS_KC_JumpButtonText",
 			"text": "점프"
 		},
 		{
-			"name": "lS_KC_RunButton",
+			"name": "lS_KC_RunButtonText",
 			"text": "질주"
 		},
 		{
-			"name": "lS_KC_InteractButton",
+			"name": "lS_KC_InteractButtonText",
 			"text": "상호작용"
 		},
 		{
-			"name": "lS_KC_Inventory01Button",
+			"name": "lS_KC_Inventory01ButtonText",
 			"text": "1번 아이템 사용"
 		},
 		{
-			"name": "lS_KC_Inventory02Button",
+			"name": "lS_KC_Inventory02ButtonText",
 			"text": "2번 아이템 사용"
 		},
 		{
-			"name": "lS_KC_Inventory03Button",
+			"name": "lS_KC_Inventory03ButtonText",
 			"text": "3번 아이템 사용"
 		},
 		{
-			"name": "lS_KC_Inventory04Button",
+			"name": "lS_KC_Inventory04ButtonText",
 			"text": "4번 아이템 사용"
 		},
 		{
-			"name": "lS_KC_Inventory05Button",
+			"name": "lS_KC_Inventory05ButtonText",
 			"text": "5번 아이템 사용"
 		}
 	]
