@@ -19,6 +19,14 @@
 			"name": "IS_SettingTitleText",
 			"text": "설정"
 		},
+		{
+			"name": "IS_SettingSaveText",
+			"text": "설정 저장"
+		},
+		{
+			"name": "IS_SettingResetText",
+			"text": "설정 초기화"
+		},
 
 
 		{
