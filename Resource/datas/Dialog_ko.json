@@ -16,15 +16,15 @@
 
 
 		{
-			"name": "IS_SettingTitleText",
+			"name": "lS_SettingTitleText",
 			"text": "설정"
 		},
 		{
-			"name": "IS_SettingSaveText",
+			"name": "lS_SettingSaveText",
 			"text": "설정 저장"
 		},
 		{
-			"name": "IS_SettingResetText",
+			"name": "lS_SettingResetText",
 			"text": "설정 초기화"
 		},
 
