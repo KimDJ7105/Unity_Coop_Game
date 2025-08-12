@@ -117,6 +117,21 @@
 		{
 			"name": "lS_KC_Inventory05ButtonText",
 			"text": "5번 아이템 사용"
+		},
+
+
+
+		{
+			"name": "ESC_InviteButtonText",
+			"text": "게임 초대"
+		},
+		{
+			"name": "ESC_SettingButtonText",
+			"text": "게임 설정"
+		},
+		{
+			"name": "ESC_LeaveButtonText",
+			"text": "게임 나가기"
 		}
 	]
 
