@@ -132,6 +132,13 @@
 		{
 			"name": "ESC_LeaveButtonText",
 			"text": "게임 나가기"
+		},
+
+
+
+		{
+			"name": "InGame_InteractionText",
+			"text": "[상호작용]"
 		}
 	]
 
