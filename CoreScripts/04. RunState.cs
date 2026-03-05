@@ -26,7 +26,7 @@ public class RunState : IPlayerState
         
         // 플레이어의 현 상태를 적용해 이동
         var stat = player._PlayerStat;
-        if (player.Move(data, stat.RunSpeed / stat.WalkSpeed)) return;
+        player.Move(data, stat.RunSpeed / stat.WalkSpeed)
 
     }
 
